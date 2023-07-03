@@ -133,14 +133,13 @@ cout<< inputarr[5][5];
   double xl, xu, yl, yu;
   int nxs, nxl, nys, nyl;
 
-  x0 = 8; // Selection of parmeters for window (this is essentially 'cin'. Change as per desired)
-  y0 = 2; // Selection of parmeters for window (this is essentially 'cin'. Change as per desired)
-  x1 = 5; // Selection of parmeters for window (this is essentially 'cin'. Change as per desired)
-  y1 = 4; // Selection of parmeters for window (this is essentially 'cin'. Change as per desired)
+  x0 = 8; // Selection of parmeters for window 
+  y0 = 2; // Selection of parmeters for window 
+  x1 = 5; // Selection of parmeters for window
+  y1 = 4; // Selection of parmeters for window 
   double sumval, average;
 
-  if (x0 > x1) // These if statements do parameter order correction if necessary, as was required in problem statement
-  {
+  if (x0 > x1) 
     xl = x1;
     xu = x0;
   }
